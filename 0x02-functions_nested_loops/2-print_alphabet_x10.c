@@ -8,17 +8,17 @@
 
 void print_alphabet_x10(void)
 {
-int n, co;
+int n, kij;
 
-co = 0;
+kij = 0;
 
-while (co < 10)
+while (kij < 10)
 {
 for (n = 'a'; n <= 'z'; n++)
 {
-_putcher(n);
+_putchar(n);
 }
-co++
+kij++
 _putchar('\n');
 }
 
