@@ -18,7 +18,7 @@ for (n = 'a'; n <= 'z'; n++)
 {
 _putchar(n);
 }
-kij++
+kij++;
 _putchar('\n');
 }
 
