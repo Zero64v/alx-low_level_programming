@@ -5,8 +5,9 @@
 */
 int main(void)
 {
-int i;
-i = 98;
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
 if (i > 0)
 {
 printf("%i is positive\n", n);
