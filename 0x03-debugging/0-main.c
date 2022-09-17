@@ -7,12 +7,7 @@
 int main(void)
 {
 int i;
-if (i >= 0)
-{
-return (is positive\n);
-}
-else
-{
-return (is negative\n);
-}
+i = 0;
+positive(i);
+return (0);
 }
