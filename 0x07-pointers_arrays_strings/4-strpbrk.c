@@ -2,7 +2,7 @@
 /**
 * _strpbrk - function that searches a string for any of a set of bytes
 * @s: string to check
-* @access: string to check against
+* @accept: string to check against
 *
 * Return: pointer to bytes in s that matches or NULL if otherwise
 */
