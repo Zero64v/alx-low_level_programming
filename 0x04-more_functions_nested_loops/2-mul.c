@@ -5,8 +5,6 @@
 * @b - second input
 * return: product of a & b
 */
-int mul(void)
+int mul(int a, int b)
 {
-int mul;
-mul = a * b;
-return 0;
+return (a*b);
