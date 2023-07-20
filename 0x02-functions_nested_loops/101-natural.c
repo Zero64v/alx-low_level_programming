@@ -1,9 +1,9 @@
 #include<stdio.h>
 /**
- * main- Lists all the numbers below 1024
+ * main - Lists all the numbers below 1024,
  * that are multiples of 3 0r 5.
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 int main(void)
 {
