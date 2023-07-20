@@ -1,7 +1,6 @@
 #include<stdio.h>
 /**
- * main - Prints first 50 Fibonacci numbers,
- * starting with 1 and 2,
+ * main - Prints first 50 Fibonacci numbers,starting with 1 and 2,
  * separated by comma followed by a space.
  *
  * Return: Always 0
@@ -12,7 +11,7 @@ int count;
 unsigned long fib1 = 0, fib2 = 1, sum;
 for (count = 0; count < 50; count++)
 {
-sum = fin1 + fib2;
+sum = fib1 + fib2;
 printf("%lu", sum);
 
 fib1 = fib2;
