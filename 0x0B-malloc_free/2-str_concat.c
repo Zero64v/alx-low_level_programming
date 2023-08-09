@@ -4,8 +4,7 @@
 * str_concat - a function that concantenates two strings
 * @s1: first string
 * @s2: second string
-*
-* Return: Null incase of failure,points to new string -pass
+* Return: concat of s1 and s2
 */
 char *str_concat(char *s1, char *s2)
 {
@@ -19,7 +18,7 @@ s2 = "";
 i = ci = 0;
 while (s1[i] != '\0')
 i++;
-while (s2[ci] i = '\0')
+while (s2[ci] != '\0')
 ci++;
 conct = malloc(sizeof(char) * (i + ci + 1));
 if (conct == NULL)
