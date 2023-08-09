@@ -1,4 +1,4 @@
-#include "main.h"
+v#include "main.h"
 /**
 * str_concat - a function that concantenates two strings
 * @s1: first string
@@ -15,7 +15,7 @@ s1 = "";
 if (s2 == NULL)
 s2 = "";
 
-i - ci = 0;
+i = ci = 0;
 while (s1[i] != '\0')
 i++;
 while (s2[ci] i = '\0')
