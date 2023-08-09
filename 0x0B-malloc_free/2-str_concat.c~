@@ -1,8 +1,0 @@
-#include "main.h"
-/**
-* str_concat - a function that concantenates two strings
-*@s1: first string
-*@s2: second string
-*
-*Return: Null incase of failure,points to new string -pass
-*/
