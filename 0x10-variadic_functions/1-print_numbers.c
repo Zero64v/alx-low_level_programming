@@ -10,10 +10,15 @@
 */
 int sum_them_all(const unsigned int n, ...)
 {
-va_list ap;unsigned int i, sum = 0;
-va_start(ap, n);
-for (i = 0; i < n; i++)
-sum += va_arg(ap, int);
-va_end(ap);
-return (sum)
+va_list nums;
+unsigned int index;
+va_start(nums, n);
+for (index = 0; index < n; index++)
+{
+printf("%d", va_arg(nums, int));
+if (index != (n - 1) && separator != NULL)
+printf("%s", separator);
+}
+printf("\n");
+va_end(nums);
 }
